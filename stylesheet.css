@@ -1,0 +1,326 @@
+
+body {
+  margin: 0;
+
+  width: 100%;
+  height: 100vh;
+  background: radial-gradient(#353c44, #222931);
+  display: flex;
+
+}
+
+.lightbeams{
+	  height: 294px;
+  width: 294px;
+  position: relative;
+  left:610px;
+  top: 320px;
+	border-radius: 50%;
+	border-color: #52FEFE;
+	border-style: dashed;
+	border-width: 9.5px;
+	box-shadow:0px 0px 32px 8px #87CEFA;
+  animation-name: boxshadow;
+  animation-duration: 10s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-name: core;
+  animation-delay: 3s;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+
+}
+.Coilholder1{
+	height: 278px;
+	width: 278px;
+	position: absolute;  
+left:625px;
+  top: 336px;
+	
+	border-radius: 50%;
+border: 1px solid rgba(18, 20, 20,0.9);
+  background-color: #384c50;
+    box-shadow: 0px 0px 32px 8px rgb(18, 20, 20), 0px 0px 4px 1px rgb(18, 20, 20) inset;
+ 
+}
+.Coilholder2{
+	 height: 258px;
+  width: 258px;
+  position: absolute;
+  left:637px;
+  top: 345px;
+  border-radius: 50%;
+  background-color: rgb(22, 26, 27);
+  box-shadow: 0px 0px 4px 1px #52FEFE;
+  animation-name: boxshadow;
+  animation-delay: 1s;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+
+}
+.Coilholder3{
+ height: 243px;
+  width: 243px;
+  position: absolute;
+  left:644px;
+  top: 353.8px;
+  border-radius: 50%;
+  background-color: #52FEFE;
+  box-shadow: 0px 0px 4px 1px #52FEFE;
+
+  animation-name: core;
+  animation-duration: 1s;
+  animation-delay: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+
+}
+.name{
+	position: absolute;
+	left: 713px;
+	top:248px;
+	font-size: 20px;
+	font-family: sans-serif;
+	color:#52FEFE;
+    animation-name: blink;
+    animation-delay: 1s;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+
+
+}
+
+.c{
+	position: absolute;
+  left: 751px;
+  width: 43px;
+  height: 20px;
+  top: 366px;
+  transform-origin: 15px 110px;
+  background-color:#073c4b;
+  filter: brightness(200%);
+  box-shadow: 0px 0px 9px #52FEFE inset;
+  animation-name: coreb;
+  animation-delay: 1s;
+  animation-duration: 3s;
+  animation-iteration-count:infinite;
+
+
+}  
+
+.c1 {
+  transform: rotate(0deg);
+ 
+ }
+.c2 {
+
+  transform: rotate(45deg);
+  
+  
+}
+.c3{
+  transform: rotate(90deg);
+
+}
+.c4 {
+  transform: rotate(135deg);
+
+}
+.c5 {
+  transform: rotate(180deg);
+
+}
+.c6 {
+  transform: rotate(225deg);
+  
+}
+.c7 {
+  transform: rotate(270deg);
+  
+}
+.c8 {
+  transform: rotate(315deg); 
+}
+
+.middlecore{
+	position: absolute;
+	left:684px; 
+	top:392px;
+	width: 165px;
+  height: 165px;
+  background-color: #073c4b;
+  box-shadow: 0px 0px 5px 4px #52FEFE, 0px 0px 6px 2px #52FEFE inset;
+    border-radius: 50%;
+
+
+}
+.innercore{
+position: absolute;
+	left:702px; 
+	top:409px;
+	width: 130px;
+  height: 130px;
+  background-color: #52FEFE; 
+  box-shadow: 0px 0px 5px 4px black, 0px 0px 6px 2px #073c4b inset;
+    border-radius: 50%;
+    animation-name: innercore;
+  animation-duration: 2s;
+  animation-delay: 3s;
+  animation-iteration-count: 1;
+  	
+}
+.triside1{
+	position: absolute;
+	left:716px; 
+	top:429px;
+	height:7px;
+	width:103px;
+	background-color: black; 
+	border-color: black;  
+    border-radius: 70% 70%  0% 0%;
+    box-shadow:  0px 0px 6px 2px #073c4b;
+}
+.triside2{
+	position: absolute;
+	left:749px; 
+	top:490px;
+	height:7px;
+	width:103px;
+	background-color: black; 
+	border-color: black;  
+    border-radius: 50% 50%  0% 0%;
+    box-shadow:  0px 0px 6px 2px #073c4b;
+    transform:rotate(-60deg);
+}
+
+.triside3{
+	position: absolute;
+	left:682px; 
+	top:490px;
+	height:7px;
+	width:105px;
+	background-color: black; 
+	border-color: black;  
+    border-radius: 50% 50%  0% 0%;
+    box-shadow:  0px 0px 6px 2px #073c4b;
+    transform:rotate(60deg);
+}
+.middletri{
+	position: absolute;
+	left:730px; 
+	top:453px;
+
+	width: 0; 
+  height: 0; 
+  border-left: 37px solid transparent;
+  border-right: 37px solid transparent;
+  
+  border-top: 65px solid rgb(28,46,64);
+  animation-name: middletri;
+  animation-duration: 3s;
+  animation-delay: 3s;
+  animation-iteration-count: infinite;
+}
+
+
+.innertri{
+	position: absolute;
+	left:748px; 
+	top:463px;
+
+	width: 0; 
+  height: 0; 
+  border-left: 19px solid transparent;
+  border-right:19px solid transparent;
+  
+  border-top: 36px solid white;
+   animation-name: innertri;
+  animation-duration: 3s;
+  animation-delay: 3s;
+  animation-iteration-count: 1;	
+  
+}
+.line1{
+position: absolute;
+	left:708px; 
+	top:445px;
+	height:5px;
+	width:29px;
+	background-color: rgb(28,46,64); 
+	border-color: rgb(28,46,64);  
+    border-radius: 0% 0%  0% 0%;
+    box-shadow:  0px 0px 6px 0px #073c4b;
+    transform:rotate(30deg);	
+}
+.line2{
+position: absolute;
+	left:798px; 
+	top:445px;
+	height:5px;
+	width:29px;
+	background-color: rgb(28,46,64); 
+	border-color: rgb(28,46,64);  
+    border-radius: 0% 0%  0% 0%;
+    box-shadow:  0px 0px 6px 0px #073c4b;
+    transform:rotate(-30deg);	
+}
+.line3{
+position: absolute;
+	left:752.5px; 
+	top:525px;
+	height:5px;
+	width:29px;
+	background-color: rgb(28,46,64); 
+	border-color: rgb(28,46,64);  
+    border-radius: 0% 0%  0% 0%;
+    box-shadow:  0px 0px 6px 0px #073c4b;
+    transform:rotate(-90deg);	
+}
+
+
+@keyframes middletri{
+   0% {filter: brightness(100%);}
+   25% {filter:brightness(200%);}
+  50% {filter:brightness(240%);}
+  100% {filter:brightness(350%);}
+}
+@keyframes innercore{
+   0% {filter: brightness(100%);}
+   25% {filter:brightness(200%);}
+  50% {filter:brightness(300%);}
+  100% {filter:brightness(150%);}
+}
+@keyframes innertri{
+   0% {filter: brightness(40%);}
+   25% {filter:brightness(140%);}
+  50% {filter:brightness(200%);}
+
+  100% {filter:brightness(300%);}
+}
+@keyframes core{
+   from {transform: rotate(0deg);}
+   to { transform: rotate(360deg); }
+}
+@keyframes coreb{
+   0% {filter: brightness(120%);}
+   25% {filter:brightness(140%);}
+  50% {filter:brightness(200%);}
+  100% {filter:brightness(300%);}
+}
+@keyframes boxshadow{
+	0%{box-shadow: 0px 0px 32px 8px #87CEFA;}
+	50%{box-shadow:0px 0px 42px 14px #87CEFA;}
+	100%{box-shadow: 0px 0px 52px 20px #87CEFA;}
+}
+@keyframes blink{
+	0% { filter: brightness(120%); }
+	25%{filter: brightness(170%);}
+	50%{filter: brightness(200%);}
+	75%{filter: brightness(130%);}
+	100%{filter: brightness(80%);}
+}
+
+
